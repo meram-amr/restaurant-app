@@ -1,18 +1,68 @@
-# React + Vite
+# Restaurant App — Food Ordering Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive food ordering web application built with React, featuring dynamic menu browsing and an interactive meal customization experience with real-time updates.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[View Live](https://meram-amr.github.io/restaurant-app/)
 
-## React Compiler
+---
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Features
 
-Note: This will impact Vite dev & build performances.
+* Category-based menu navigation
+* Dynamic menu cards with detailed item information
+* Meal customization with real-time price updates
+* Interactive order summary
+* Responsive design across all screen sizes
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+| Technology | Purpose                           |
+| ---------- | --------------------------------- |
+| React.js   | User interface development        |
+| Vite       | Build tool and development server |
+| CSS        | Styling                           |
+
+---
+
+## Getting Started
+
+```bash id="q2l9sx"
+# 1. Clone the repository
+git clone https://github.com/meram-amr/restaurant-app.git
+
+# 2. Navigate to the project directory
+cd restaurant-app
+
+# 3. Install dependencies
+npm install
+
+# 4. Run the development server
+npm run dev
+```
+
+Open http://localhost:5173 in your browser.
+
+---
+
+## Project Structure
+
+```id="m8zk21"
+restaurant-app/
+├── public/
+├── src/
+│   ├── components/
+│   ├── assets/
+│   └── App.jsx
+├── index.html
+└── package.json
+```
+---
+
+## Author
+
+Meram Amr — Frontend Developer
+GitHub: https://github.com/meram-amr
